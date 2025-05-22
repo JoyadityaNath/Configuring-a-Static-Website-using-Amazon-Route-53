@@ -18,7 +18,7 @@ Screenshots have also been included to guide the reader through each step. Feel 
 
 ### Speeding up your website with Amazon CloudFront
 
-###Cleaning up your example resources
+### Cleaning up your example resources
 
 
 ## IMPORTANT
