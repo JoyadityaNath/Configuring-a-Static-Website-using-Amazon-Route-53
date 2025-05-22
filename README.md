@@ -23,3 +23,6 @@ Screenshots have also been included to guide the reader through each step. Feel 
 
 ## IMPORTANT
 This project may incur costs for the use of certain AWS services such as registering a domain using Route53, which depends upon which type of TLD reader is trying to register. I will attach the price list of some of the TLD(Top Level Domains) to make sure that our readers can go through this project by spending minimum money.
+
+Official tutorial Docs:
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-before-you-begin
