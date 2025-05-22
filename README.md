@@ -4,6 +4,9 @@ Screenshots have also been included to guide the reader through each step. Feel 
 
 ## Contents
 1. Registering a Domain using Route 53.
+2. Create separate S3 buckets for hosting the main domain and subdomain.
+3. Configure the root domain bucket for web hosting.
+4. Comfigure the subdomain bucket for web hosting.
 
 
 ## IMPORTANT
