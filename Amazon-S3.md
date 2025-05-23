@@ -32,6 +32,8 @@ Amazon S3 enables static website hosting for your bucket. At the bottom of the p
 The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish configuring your bucket as a static website, you can use this endpoint to test your website.<br><br>
 ![image](https://github.com/user-attachments/assets/5bb68432-c18f-47aa-b21d-5e76c834a57a)
 
+## 4. Configure the Subdomain bucket for web hosting
+
 
 
 
