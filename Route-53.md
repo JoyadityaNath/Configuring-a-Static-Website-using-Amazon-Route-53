@@ -21,6 +21,8 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 5. Once you find a unique domain name of your choice, press **Select**-->**Proceed to checkout**. From there you will be asked how long do you want your domain to be registered and do you want it to get **Auto-Renewed**. Select the suitable duration and uncheck the auto-renew option(unless you want to renew periodically) to avoid recurring periodic charges. Select **Next**. Enter your contact details on the next page, and then Review and Submit your contact information. After the domain registration is complete, which takes time, this is how your Dashboard should look.
    ![image](https://github.com/user-attachments/assets/c6407486-b3aa-4ccd-95d1-3eb26eb4d900)
 
+6. Note that a **[Hosted Zone]()** is automatically created by Route 53 for your registered domain. We will learn more about hosted zones in the upcoming sections.
+
 
    
 
