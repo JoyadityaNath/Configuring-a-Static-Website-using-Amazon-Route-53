@@ -15,3 +15,6 @@ Leave all the other settings as they are in their default values.
 5. Similarly create another bucket for your subdomain with a different name(`www.example.com`) in the same region. After creating both the buckets, you can view them in the **General Purpose Buckets** section.
    ![image](https://github.com/user-attachments/assets/d0468586-ea4b-4b1a-aa3f-a9c4980cae7e)
 
+## 3. Configure Root Domain Bucket
+
+
