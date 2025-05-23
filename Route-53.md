@@ -74,6 +74,27 @@ Cached DNS or previous redirects may interfere with fresh changes. Clear your br
 Ensure that the name servers associated with your domain registration match those listed in your Route 53 hosted zone.
 If there is a mismatch, update the domain's name server records to reflect the correct values as specified in your hosted zone.
 
+3. Review Access Logs in the Logs S3 Bucket
+If server access logging was enabled, you can now inspect the log files generated in your designated logs S3 bucket `logs/` folder (e.g., `logs.example.com/logs/`). These files are typically compressed with the .gz extension. Once decompressed, each log file provides detailed request-level information, including but not limited to:
+
+-The bucket name receiving the request
+
+-Request timestamp (in UTC)
+
+Requester’s IP address
+
+Request type (e.g., GET, PUT)
+
+HTTP status code returned
+
+Total bytes transferred
+
+Referrer and user-agent details
+
+Requested object key
+
+This data can be invaluable for performance monitoring, usage analytics, or security auditing.
+
 
 
     
