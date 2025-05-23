@@ -43,7 +43,7 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 16. Choose **Define simple record**.<br>
 ![image](https://github.com/user-attachments/assets/9b758c2d-c6de-4e07-9fdd-b2709472c3be)<br>
 
-In the above screenshot, we see there are 6 records, two `A-type` records created in this section, two `CNAME` type records which we will see in the upcoming [Speeding up section, and the remaining two records which are automatically created by Route 53 while registering a domain.
+In the above screenshot, we see there are 6 records, two `A-type` records created in this section, two `CNAME` type records which we will see in the upcoming [Speeding up your website with Amazon CloudFront](CloudFront.md) section, and the remaining two records which are automatically created by Route 53 while registering a domain.
 
     
 ## Further Readings
