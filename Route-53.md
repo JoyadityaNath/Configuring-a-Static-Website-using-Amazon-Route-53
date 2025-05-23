@@ -71,12 +71,10 @@ If the website or redirection does not work as intended, consider the following 
 Cached DNS or previous redirects may interfere with fresh changes. Clear your browser cache and retry.
 
 2. Verify Name Server Configuration
-
 Ensure that the name servers associated with your domain registration match those listed in your Route 53 hosted zone.
-
 If there is a mismatch, update the domain's name server records to reflect the correct values as specified in your hosted zone.
 
-For detailed guidance, refer to Adding or changing name servers and glue records for a domain.
+
 
     
 ## Further Readings
