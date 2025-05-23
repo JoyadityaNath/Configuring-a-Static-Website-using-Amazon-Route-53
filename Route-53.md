@@ -1,7 +1,7 @@
 ## Introduction
 Amazon Route 53 is a service that helps us achieve 3 things namely:
 1) Registering Domains
-2) Routing internet traffic to domains([DNS]())
+2) Routing internet traffic to domains([DNS](Route-53.md##Further-Readings))
 3) Checking the health of our resources such as web servers or pages.
    
 In this project, the first two services of Amazon Route 53 will be used. Route 53 serves other purposes as well, such as a DNS Resolver. For more information about all things Route 53 can do, check out this [link]().
@@ -12,9 +12,9 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 
 2. For registering a domain using Route 53 navigate through web pages as follows **Get Started** --> **Register a Domain**--> **Get started**.
 
-3. You will land on a Register Domains page. here you can give your website a name and decide which Top Level Domain([TLD]()) to select. For project purposes, select the cheapest TLD i.e.**.click** which charges only 3 USD per year! You can explore many more TLDs. Route 53 provides a whopping 355 TLDs.
+3. You will land on a Register Domains page. here you can give your website a name and decide which Top Level Domain([TLD](Route-53.md##Further-Readings)) to select. For project purposes, select the cheapest TLD i.e.**.click** which charges only 3 USD per year! You can explore many more TLDs. Route 53 provides a whopping 355 TLDs.
 
-4. Also [select a unique domain name]() and check its availability. Your domain name should be unique across the internet. In the screenshot below it shows "statico.click is not available" because I have already registered this domain for this project.
+4. Also [select a unique domain name](Route-53.md##Further-Readings) and check its availability. Your domain name should be unique across the internet. In the screenshot below it shows "statico.click is not available" because I have already registered this domain for this project.
    ![image](https://github.com/user-attachments/assets/51da0187-6141-436c-b6ee-9c824a65b693)
 
 
