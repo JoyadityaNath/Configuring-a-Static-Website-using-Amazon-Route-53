@@ -33,8 +33,16 @@ The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish
 ![image](https://github.com/user-attachments/assets/5bb68432-c18f-47aa-b21d-5e76c834a57a)
 
 ## 4. Configure the Subdomain bucket for web hosting
+1. Click your subdomain bucket name and it will take you to the bucket settings.
+2. Choose **Properties** tab and scroll down to the bottom to navigate to **Static website hosting** section.
+3. Under **Static website hosting**, choose **Edit**.
+4. Under **Static website hosting**, choose **Enable**.
+5. Choose **Redirect requests for an object** under **Hosting Type** to host a website. This  option is used to redirect visitors who try to access a specific object (file) to another location — either within the same bucket, another bucket, or even an external URL.
+6. In the **Host Name** box, enter your root domain, for example, `example.com`. So now if you enter your subdomain name on any browser, it will redirect it to the root domain automatically. 
 
+For Protocol, choose http.
 
+Choose Save changes.
 
 
 
