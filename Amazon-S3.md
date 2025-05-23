@@ -125,12 +125,9 @@ Attaching a bucket policy to the domain bucket will allow public read access. Yo
 After you edit S3 Block Public Access settings, you can add a bucket policy to grant public read access to your bucket. When you grant public read access, anyone on the internet can access your bucket.<br>
 ## 7. Test your Domain Endpoint
 1. Under Buckets, choose the name of your bucket.
-
-Choose Properties.
-
-At the bottom of the page, under Static website hosting, choose your Bucket website endpoint.
-
-Your index document opens in a separate browser window.
+2. Choose Properties.
+3. At the bottom of the page, under Static website hosting, choose your Bucket website endpoint.
+4. Your index document opens in a separate browser window.
 
 
 
