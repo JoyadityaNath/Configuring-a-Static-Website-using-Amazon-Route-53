@@ -127,6 +127,7 @@ After you edit S3 Block Public Access settings, you can add a bucket policy to g
 1. Under **Buckets**, choose the name of your bucket.
 2. Choose **Properties**.
 3. At the bottom of the page, under **Static website hosting**, choose your Bucket website endpoint.
+![image](https://github.com/user-attachments/assets/e94dc965-54cf-4495-b618-7460623a006d)
 
 4. Your index document opens in a separate browser window.
 
