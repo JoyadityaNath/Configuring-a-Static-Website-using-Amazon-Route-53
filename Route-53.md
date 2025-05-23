@@ -24,7 +24,7 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 6. Note that a **[Hosted Zone](#Further-Readings)** is automatically created by Route 53 for your registered domain. We will learn more about hosted zones in the upcoming sections. Now we'll [create our S3 Buckets](Amazon-S3.md) for hosting our main domain as well as our subdomain.
 
 ## 8. Add alias records for your domain and subdomain
-####To add an alias record for your root domain (example.com)
+#### To add an alias record for your root domain (example.com)
 1. Open the Route 53 console.
 2. Choose **Hosted zones** in the left navigation pane.
 3. In the list of hosted zones, choose the name of the hosted zone that matches your domain name.
@@ -42,7 +42,7 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 15. For **Evaluate target health**, choose **No**.
 16. Choose **Define simple record**.<br>
 
-####To add an alias record for your subdomain (www.example.com)
+#### To add an alias record for your subdomain (www.example.com)
 1. Under **Configure records**, choose **Define simple record**.
 2. In **Record name** for your subdomain, type the prefix of your subdomain, for example `www.`
 3. In **Value/Route traffic to**, choose **Alias to S3 website endpoint**.
@@ -65,7 +65,7 @@ To confirm that both your root domain and subdomain redirection are functioning 
 2.Subdomain (http://www.example.com)
 → This should redirect the request to http://example.com, and display the same index document from the root domain bucket.
 
-###Troubleshooting Tips
+### Troubleshooting Tips
 If the website or redirection does not work as intended, consider the following diagnostics:
 1. Clear Browser Cache
 Cached DNS or previous redirects may interfere with fresh changes. Clear your browser cache and retry.
