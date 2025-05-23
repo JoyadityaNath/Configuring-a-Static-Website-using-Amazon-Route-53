@@ -10,8 +10,8 @@ Screenshots have also been included to guide the reader through each step. Feel 
 5. [Configure logging for website traffic](Amazon-S3.md#5-configure-logging-for-website-traffic).
 6. Attach a bucket policy
 7. Test your domain endpoint
-11. Add alias records for your domain and subdomain
-12. Test the website
+8. Add alias records for your domain and subdomain
+9. Test the website
 
 ### Speeding up your website with Amazon CloudFront
 
