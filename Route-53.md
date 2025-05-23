@@ -10,7 +10,7 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 1. In the search bar, type Route 53 and click the first option that pops up. If you are using Route 53 for the first time, you will be directed to the main page, else your Route 53 dashboard will pop up.
    ![image](https://github.com/user-attachments/assets/c41ac112-53ab-494d-b17d-a13e4a4eb532)
 
-2. For registering a domain navigate through web pages **Get Started**. You will be directed to a page where it will ask you what service of Route 53 do you want to use, here we will go with the first option, **Register a Domain** and then click the get started option.
+2. For registering a domain using Route 53 navigate through web pages as follows **Get Started** --> **Register a Domain**--> **Get started**.
 
 
    
