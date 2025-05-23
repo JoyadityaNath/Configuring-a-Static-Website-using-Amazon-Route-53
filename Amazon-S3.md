@@ -41,7 +41,8 @@ The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish
 6. In the **Host Name** box, enter your root domain, for example, `example.com`. So now if you enter your subdomain name on any browser, it will redirect it to the root domain automatically. 
 7. For **Protocol**, choose **http**.
 8. Choose **Save changes**.<br><br>
-![image](https://github.com/user-attachments/assets/d8041f3a-52a0-4f08-b314-55f1034d5a51)
+![image](https://github.com/user-attachments/assets/4644b163-fac3-400a-9d77-33fbeb0e0149)
+
 
 
 
