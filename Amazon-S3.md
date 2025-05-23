@@ -14,8 +14,9 @@ Leave all the other settings as they are in their default values.
 
 5. Similarly create another bucket for your subdomain with a different name(`www.example.com`) in the same region. After creating both the buckets, you can view them in the **General Purpose Buckets** section.
    ![image](https://github.com/user-attachments/assets/d0468586-ea4b-4b1a-aa3f-a9c4980cae7e)<br>
-   Note that the buckets *statico.click* and *`www.statico.click`* are my main domain and subdomain buckets respectively. The third bucket *logs.statico.click* is for logging metadata which we will discuss later. 
+   Note that the buckets *`statico.click`* and *`www.statico.click`* are my main domain and subdomain buckets respectively. The third bucket *logs.statico.click* is for logging metadata which we will discuss later. 
 
 ## 3. Configure the root domain bucket for web hosting
+
 
 
