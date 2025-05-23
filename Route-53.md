@@ -59,11 +59,11 @@ In the above screenshot, we see there are 6 records, two `A-type` records create
 
 ## 9. Test the Website
 To confirm that both your root domain and subdomain redirection are functioning as expected, open a web browser and test the following URLs:
-1. Root Domain (http://example.com)
+1. Root Domain (`http://example.com`)
 → This should display the index document hosted in the example.com S3 bucket.
 
-2.Subdomain (http://www.example.com)
-→ This should redirect the request to http://example.com, and display the same index document from the root domain bucket.
+2. Subdomain (`http://www.example.com`)
+→ This should redirect the request to `http://example.com`, and display the same index document from the root domain bucket.
 
 ### Troubleshooting Tips
 If the website or redirection does not work as intended, consider the following diagnostics:
