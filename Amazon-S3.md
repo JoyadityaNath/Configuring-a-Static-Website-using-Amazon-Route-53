@@ -54,13 +54,15 @@ If you want to track the number of visitors accessing your website, you can enab
 5. Choose **Properties**.
 6. Under **Server access logging**, choose **Edit**.
 7. Choose **Enable**.
+![image](https://github.com/user-attachments/assets/e701a78a-474a-4d52-94c2-ae10bc66ed0a)<br>
+
 8. Under the **Target bucket**, choose the bucket and folder destination for the server access logs:
-9. Browse to the folder and bucket location:
-10. Choose **Browse S3**.
-11. Choose the bucket name, and then choose the logs folder.
-12. Choose **Choose path**.
-13. Enter the S3 bucket path, for example, `s3://logs.example.com/logs/`.
-14. Choose **Save changes**.<br><br>
+9. Browse to the folder and bucket location:<br>
+    i)Choose **Browse S3**.<br>
+   ii) Choose the bucket name, and then choose the logs folder.<br>
+  iii) Choose **Choose path**.<br>
+   iv) Enter the S3 bucket path, for example, `s3://logs.example.com/logs/`.<br>
+10. Choose **Save changes**.<br><br>
 
 In your log bucket, you can now access your logs. Amazon S3 writes website access logs to your log bucket within a few minutesafter someone visits your website.
 
