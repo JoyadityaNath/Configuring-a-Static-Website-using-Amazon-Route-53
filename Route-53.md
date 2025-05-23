@@ -41,9 +41,33 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 14. In **Record type**, choose **A ‐ Routes traffic to an IPv4 address and some AWS resources**.
 15. For **Evaluate target health**, choose **No**.
 16. Choose **Define simple record**.<br>
+
+####To add an alias record for your subdomain (www.example.com)
+Under Configure records, choose Define simple record.
+
+In Record name for your subdomain, type www.
+
+In Value/Route traffic to, choose Alias to S3 website endpoint.
+
+Choose the Region.
+
+Choose the S3 bucket, for example, s3-website-us-west-2.amazonaws.com (www.example.com).
+
+If your bucket does not appear in the Choose S3 bucket list, enter the Amazon S3 website endpoint for the Region where the bucket was created, for example, s3-website-us-west-2.amazonaws.com. For a complete list of Amazon S3 website endpoints, see Amazon S3 Website endpoints. For more information about the alias target, see Value/route traffic to in the Amazon Route 53 Developer Guide.
+
+In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
+
+For Evaluate target health, choose No.
+
+Choose Define simple record.
+
+On the Configure records page, choose Create records.
 ![image](https://github.com/user-attachments/assets/9b758c2d-c6de-4e07-9fdd-b2709472c3be)<br>
 
 In the above screenshot, we see there are 6 records, two `A-type` records created in this section, two `CNAME` type records which we will see in the upcoming [Speeding up your website with Amazon CloudFront](CloudFront.md) section, and the remaining two records which are automatically created by Route 53 while registering a domain.
+
+## 9. Test the Website
+
 
     
 ## Further Readings
