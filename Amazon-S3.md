@@ -47,7 +47,9 @@ The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish
 If you want to track the number of visitors accessing your website, you can enable logging for your root domain bucket. Logging can also be done using CloudFront which we will do in the section [Speeding up your website using Amazon Cloudfront](CloudFront.md).<br><br>
 1. Open the Amazon S3 console and in the same region where you created the bucket that is configured as a static website, create a bucket for logging, for example `logs.example.com`.
 2. Create a folder for the server access logging log files (for example, logs).
-3. (Optional) If you want to use CloudFront to improve your website performance, create a folder for the CloudFront log files inside `logs.example.com` (for example, cdn).
+3. (Optional) If you want to use CloudFront to improve your website performance, create a folder for the CloudFront log files inside `logs.example.com` (for example, cdn).<br>
+![image](https://github.com/user-attachments/assets/573d3368-7694-4641-bffc-4b6bcf789b01)<br>
+
 4. In the **Buckets** list, choose your root domain bucket.
 5. Choose **Properties**.
 6. Under **Server access logging**, choose **Edit**.
