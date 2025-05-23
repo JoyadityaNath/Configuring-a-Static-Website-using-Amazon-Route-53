@@ -94,7 +94,7 @@ If you want to track the number of visitors accessing your website, you can enab
 
 In your log bucket, you can now access your logs. Amazon S3 writes website access logs to your log bucket within a few minutes after someone visits your website.
 
-##6. Attach a Bucket Policy
+## 6. Attach a Bucket Policy
 1. Under **Buckets**, choose the name of your bucket.
 2. Choose **Permissions**.
 3. Under **Bucket Policy**, choose **Edit**.
