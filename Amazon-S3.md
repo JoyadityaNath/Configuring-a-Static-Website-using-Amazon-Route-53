@@ -131,6 +131,7 @@ After you edit S3 Block Public Access settings, you can add a bucket policy to g
 
 4. Your index document opens in a separate browser window.
 
+![image](https://github.com/user-attachments/assets/b6a988aa-be86-4b48-89a6-ed0f568c8429)
 
 
 
