@@ -77,9 +77,9 @@ If there is a mismatch, update the domain's name server records to reflect the c
 3. Review Access Logs in the Logs S3 Bucket
 If server access logging was enabled, you can now inspect the log files generated in your designated logs S3 bucket `logs/` folder (e.g., `logs.example.com/logs/`). These files are typically compressed with the .gz extension. Once decompressed, each log file provides detailed request-level information, including but not limited to:
 
--The bucket name receiving the request
+- The bucket name receiving the request
 
--Request timestamp (in UTC)
+- Request timestamp (in UTC)
 
 Requester’s IP address
 
