@@ -5,7 +5,4 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 1. Open Amazon S3 on your console https://console.aws.amazon.com/s3/ or search it using the search bar.
 2. Create your root domain bucket by navigating **Create Bucket**.
 3. Set the bucket settings to the following:
-   i) **Bucket Type**- General Purpose
-  ii) **Bucket Name**- *Bucket names must be 3 to 63 characters and unique within the global namespace. Bucket names must also begin and end with a letter or number. Valid characters are a-z, 0-9, periods (.), and hyphens (-).* (like *example.com*)
-  iii) Choose the **bucket region**. You can navigate your region from the top-right corner of your management console just beside your account menu.
-Choose a Region that is geographically close to you to minimize latency and costs, or to address regulatory requirements. The Region that you choose determines your Amazon S3 [website endpoint]().  
+   i) **Bucket Type**- General Purpose  ii) **Bucket Name**- *Bucket names must be 3 to 63 characters and unique within the global namespace. Bucket names must also begin and end with a letter or number. Valid characters are a-z, 0-9, periods (.), and hyphens (-).* (like *example.com*)  iii) Choose the **bucket region**. You can navigate your region from the top-right corner of your management console just beside your account menu.  Choose a Region that is geographically close to you to minimize latency and costs, or to address regulatory requirements. The Region that you choose determines your Amazon S3 [website endpoint]().  
