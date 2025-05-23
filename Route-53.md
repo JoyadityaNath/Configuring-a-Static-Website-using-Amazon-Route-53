@@ -23,6 +23,8 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 
 6. Note that a **[Hosted Zone](#Further-Readings)** is automatically created by Route 53 for your registered domain. We will learn more about hosted zones in the upcoming sections. Now we'll [create our S3 Buckets](Amazon-S3.md) for hosting our main domain as well as our subdomain.
 
+## 8. Add alias records for your domain and subdomain
+
 ## Further Readings
 
 1. Route 53 official documentation by [AWS](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html).
