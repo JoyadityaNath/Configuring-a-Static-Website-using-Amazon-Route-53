@@ -50,7 +50,7 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 3. Top-Level Domains by [Wikipedia](https://en.wikipedia.org/wiki/Top-level_domain).
 4. How to choose a domain name by [WixBlog](https://www.wix.com/blog/how-to-choose-domain-name).
 5. Working with Hosted Zones by [AWS](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html).
-
+6. Route 53 routing policies by [AWS](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html).
    
 
 
