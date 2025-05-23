@@ -9,7 +9,8 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 Leave all the other settings as they are in their default values.   
 ![image](https://github.com/user-attachments/assets/0992efba-1102-44a2-92a3-bc7e3242ffc0)
 ![image](https://github.com/user-attachments/assets/0346d30c-cc56-4eae-adf5-fdb3db6a161e)
-![image](https://github.com/user-attachments/assets/c1e63240-8750-4910-aecd-d80a3cdd4405)
+![image](https://github.com/user-attachments/assets/5a469d5e-cb2b-4ed3-a935-fcb206323de0)
+
 
 
 5. Similarly create another bucket for your subdomain with a different name(`www.example.com`) in the same region. After creating both the buckets, you can view them in the **General Purpose Buckets** section.
