@@ -83,12 +83,12 @@ If server access logging was enabled, you can now inspect the log files generate
 - HTTP status code returned
 - Total bytes transferred
 - Referrer and user-agent details
-- Requested object key
-<br>
-![image](https://github.com/user-attachments/assets/05bd69ef-59fc-47ff-b208-44989ea1316d)
+- Requested object key<br>
+![image](https://github.com/user-attachments/assets/06ef06d4-95d3-44a7-aea7-e2d78395a57b)
+
 The above screenshot shows all the files that were logged in the `logs/` folder of my S3 bucket whenever the static website was visited.
 
-
+After you've successfully tested your root domain and subdomain, you can set up an Amazon CloudFront distribution to improve the performance of your website and provide logs that you can use to review website traffic. For more information, see [Speeding up your website with Amazon CloudFront](CloudFront.md).
 
     
 ## Further Readings
