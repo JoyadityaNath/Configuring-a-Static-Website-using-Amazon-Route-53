@@ -7,7 +7,7 @@ Screenshots have also been included to guide the reader through each step. Feel 
 2. [Create two S3 buckets for hosting the main domain and subdomain.](Amazon-S3.md#create-two-S3-buckets-for-hosting-the-main-domain-and-subdomain)
 3. [Configure the root domain bucket for web hosting](Amazon-S3.md#3-configure-the-root-domain-bucket-for-web-hosting).
 4. [Configure the subdomain bucket for web hosting](Amazon-S3.md#4-configure-the-subdomain-bucket-for-web-hosting).
-5. Configure logging for website traffic
+5. [Configure logging for website traffic](Amazon-S3.md#5-configure-logging-for-website-traffic).
 6. Upload index and website content
 7. Upload an error document
 8. Edit S3 Block Public Access settings
