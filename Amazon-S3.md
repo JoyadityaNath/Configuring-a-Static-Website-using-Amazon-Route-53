@@ -117,11 +117,9 @@ In your log bucket, you can now access your logs. Amazon S3 writes website acces
     ]
    }
    ```
-5.Update the Resource to your bucket name.
-
-In the preceding example bucket policy, Bucket-Name is a placeholder for the bucket name. To use this bucket policy with your own bucket, you must update this name to match your bucket name.
-
-Choose Save changes.
+5. Update the Resource to your bucket name.<br>
+In the above example bucket policy, *Bucket-Name* is a placeholder for the bucket name. To use this bucket policy with your own bucket, you must update this name to match your bucket name.<br>
+6.Choose Save changes.
 
 
 
