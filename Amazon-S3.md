@@ -29,7 +29,9 @@ The error document name is case sensitive and must exactly match the file name o
 8. Choose **Save changes**.<br>
 Amazon S3 enables static website hosting for your bucket. At the bottom of the page, under Static website hosting, you see the website endpoint for your bucket.
 9. Under **Static website hosting**, note the `Endpoint`.<br>
-The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish configuring your bucket as a static website, you can use this endpoint to test your website.
+The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish configuring your bucket as a static website, you can use this endpoint to test your website.<br><br>
+![image](https://github.com/user-attachments/assets/5bb68432-c18f-47aa-b21d-5e76c834a57a)
+
 
 
 
