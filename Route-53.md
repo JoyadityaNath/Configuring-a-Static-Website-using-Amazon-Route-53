@@ -30,7 +30,7 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 3. In the list of hosted zones, choose the name of the hosted zone that matches your domain name.
 4. Choose **Create record**.
 5. Choose **Switch to wizard**.
-6. Choose **Simple routing**, and choose **Next**. 
+6. Choose **Simple routing**, and choose **Next**. To know more about routing policies in Route 53, see [Further Readings](#further-readings) section.
 7. Choose **Define simple record**.
 8. In **Record name**, accept the default value, which is the name of your hosted zone and your domain.
 9. In **Value/Route traffic to**, choose **Alias to S3 website endpoint**.
