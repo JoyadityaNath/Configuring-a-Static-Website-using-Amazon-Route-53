@@ -95,9 +95,9 @@ If you want to track the number of visitors accessing your website, you can enab
 In your log bucket, you can now access your logs. Amazon S3 writes website access logs to your log bucket within a few minutes after someone visits your website.
 
 ##6. Attach a Bucket Policy
-1. Under Buckets, choose the name of your bucket.
-2. Choose Permissions.
-3. Under Bucket Policy, choose Edit.
+1. Under **Buckets**, choose the name of your bucket.
+2. Choose **Permissions**.
+3. Under **Bucket Policy**, choose **Edit**.
 4. To grant public read access for your website, copy the following bucket policy, and paste it in the Bucket policy editor.
    ```JSON
    {
@@ -119,7 +119,7 @@ In your log bucket, you can now access your logs. Amazon S3 writes website acces
    ```
 5. Update the Resource to your bucket name.<br>
 In the above example bucket policy, *Bucket-Name* is a placeholder for the bucket name. To use this bucket policy with your own bucket, you must update this name to match your bucket name.<br>
-6.Choose Save changes.
+6.Choose **Save changes**.
 
 
 
