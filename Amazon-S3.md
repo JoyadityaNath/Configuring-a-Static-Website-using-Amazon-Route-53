@@ -100,7 +100,28 @@ In your log bucket, you can now access your logs. Amazon S3 writes website acces
 3. Under Bucket Policy, choose Edit.
 4. To grant public read access for your website, copy the following bucket policy, and paste it in the Bucket policy editor.
    ```JSON
-   
+   {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+   }
+   ```
+5.Update the Resource to your bucket name.
+
+In the preceding example bucket policy, Bucket-Name is a placeholder for the bucket name. To use this bucket policy with your own bucket, you must update this name to match your bucket name.
+
+Choose Save changes.
 
 
 
