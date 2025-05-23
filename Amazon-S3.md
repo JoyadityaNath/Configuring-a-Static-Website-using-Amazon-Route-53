@@ -43,7 +43,7 @@ The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish
 8. Choose **Save changes**.<br><br>
 ![image](https://github.com/user-attachments/assets/4644b163-fac3-400a-9d77-33fbeb0e0149)
 
-## 5. Configure a logging 
+## 5. Configure logging for Website Traffic
 
 
 
