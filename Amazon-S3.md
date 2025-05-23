@@ -132,7 +132,7 @@ After you edit S3 Block Public Access settings, you can add a bucket policy to g
 4. Your index document opens in a separate browser window.
 
 ![image](https://github.com/user-attachments/assets/b6a988aa-be86-4b48-89a6-ed0f568c8429)<br><br>
-In the [next section](Route-53.md#8-Add-alias-records-for-your-domain-and-subdomain), we will see how using Route 53's Hosted Zone section we can enable customers to use both of your custom URLs to navigate to your site.
+In the [next section](Route-53.md#8-add-alias-records-for-your-domain-and-subdomain), we will see how using Route 53's Hosted Zone section we can enable customers to use both of your custom URLs to navigate to your site.
 
 
 
