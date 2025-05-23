@@ -39,10 +39,8 @@ The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish
 4. Under **Static website hosting**, choose **Enable**.
 5. Choose **Redirect requests for an object** under **Hosting Type** to host a website. This  option is used to redirect visitors who try to access a specific object (file) to another location — either within the same bucket, another bucket, or even an external URL.
 6. In the **Host Name** box, enter your root domain, for example, `example.com`. So now if you enter your subdomain name on any browser, it will redirect it to the root domain automatically. 
-
-For Protocol, choose http.
-
-Choose Save changes.
+7. For **Protocol**, choose **http**.
+8. Choose **Save changes**.
 
 
 
