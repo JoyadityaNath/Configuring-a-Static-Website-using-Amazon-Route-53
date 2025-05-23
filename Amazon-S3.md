@@ -44,6 +44,7 @@ The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish
 ![image](https://github.com/user-attachments/assets/4644b163-fac3-400a-9d77-33fbeb0e0149)
 
 ## 5. Configure logging for Website Traffic
+1. If you want to track the number of visitors accessing your website, you can enable logging for your root domain bucket. Logging can also be done using CloudFront which we will do in the section [Speeding up your website using Cloudfront]
 
 
 
