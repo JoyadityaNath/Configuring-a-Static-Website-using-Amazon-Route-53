@@ -78,12 +78,12 @@ If there is a mismatch, update the domain's name server records to reflect the c
 If server access logging was enabled, you can now inspect the log files generated in your designated logs S3 bucket `logs/` folder (e.g., `logs.example.com/logs/`). These files are typically compressed with the .gz extension. Once decompressed, each log file provides detailed request-level information, including but not limited to:
 - The bucket name receiving the request
 - Request timestamp (in UTC)
-Requester’s IP address
-Request type (e.g., GET, PUT)
-HTTP status code returned
-Total bytes transferred
-Referrer and user-agent details
-Requested object key
+-Requester’s IP address
+-Request type (e.g., GET, PUT)
+-HTTP status code returned
+-Total bytes transferred
+-Referrer and user-agent details
+-Requested object key
 
 
 
