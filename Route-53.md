@@ -27,7 +27,8 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 
 1. Route 53 official documentation by [AWS](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html).
 2. What is DNS? by [CloudFare](https://www.cloudflare.com/learning/dns/what-is-dns/).
-3. 
+3. Top-Level Domains by [Wikipedia](https://en.wikipedia.org/wiki/Top-level_domain).
+4. How to choose a domain name by [WixBlog](https://www.wix.com/blog/how-to-choose-domain-name).
 
 
    
