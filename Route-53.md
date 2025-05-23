@@ -4,7 +4,7 @@ Amazon Route 53 is a service that helps us achieve 3 things namely:
 2) Routing internet traffic to domains([DNS](Route-53.md##Further-Readings))
 3) Checking the health of our resources such as web servers or pages.
    
-In this project, the first two services of Amazon Route 53 will be used. Route 53 serves other purposes as well, such as a DNS Resolver. For more information about all things Route 53 can do, check out this [link]().
+In this project, the first two services of Amazon Route 53 will be used. Route 53 serves other purposes as well, such as a DNS Resolver. For more information about all things Route 53 can do, check out this [link](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html).
 
 ### 1. Register a Custom Domain using Route 53
 1. In the search bar, type Route 53 and click the first option that pops up. If you are using Route 53 for the first time, you will be directed to the main page, else your Route 53 dashboard will pop up.
