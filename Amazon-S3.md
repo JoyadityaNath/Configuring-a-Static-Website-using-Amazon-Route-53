@@ -119,7 +119,13 @@ In your log bucket, you can now access your logs. Amazon S3 writes website acces
    ```
 5. Update the Resource to your bucket name.<br>
 In the above example bucket policy, *Bucket-Name* is a placeholder for the bucket name. To use this bucket policy with your own bucket, you must update this name to match your bucket name.<br>
-6.Choose **Save changes**.
+6.Choose **Save changes**.<br>
+![image](https://github.com/user-attachments/assets/ef9d1b4e-d01e-4e62-a3d2-0e0201beb8e2)<br><br>
+ Attaching a bucket policy to the domain bucket will allow public read access. You replace the *Bucket-Name* in the example bucket policy with the name of your domain bucket.
+
+After you edit S3 Block Public Access settings, you can add a bucket policy to grant public read access to your bucket. When you grant public read access, anyone on the internet can access your bucket.
+
+
 
 
 
