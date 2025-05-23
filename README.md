@@ -3,7 +3,7 @@ This repository is a small personal project and a stepping stone for my cloud jo
 Screenshots have also been included to guide the reader through each step. Feel free to contribute to this repository, suggest corrections or format change, new content, or mail me at nathja@rknec.edu for requesting new project content.  
 
 ## Contents
-1. Registering a Domain using Route 53.
+[1. Registering a Domain using Route 53.](Route-53.md#registering-a-domain-using-route-53).
 2. Create separate S3 buckets for hosting the main domain and subdomain.
 3. Configure the root domain bucket for web hosting.
 4. Configure the subdomain bucket for web hosting.
