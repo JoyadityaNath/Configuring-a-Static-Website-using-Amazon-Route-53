@@ -58,7 +58,25 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 In the above screenshot, we see there are 6 records, two `A-type` records created in this section, two `CNAME` type records which we will see in the upcoming [Speeding up your website with Amazon CloudFront](CloudFront.md) section, and the remaining two records which are automatically created by Route 53 while registering a domain.
 
 ## 9. Test the Website
+To confirm that both your root domain and subdomain redirection are functioning as expected, open a web browser and test the following URLs:
+1. Root Domain (http://example.com)
+→ This should display the index document hosted in the example.com S3 bucket.
 
+2.Subdomain (http://www.example.com)
+→ This should redirect the request to http://example.com, and display the same index document from the root domain bucket.
+
+###Troubleshooting Tips
+If the website or redirection does not work as intended, consider the following diagnostics:
+1. Clear Browser Cache
+Cached DNS or previous redirects may interfere with fresh changes. Clear your browser cache and retry.
+
+2. Verify Name Server Configuration
+
+Ensure that the name servers associated with your domain registration match those listed in your Route 53 hosted zone.
+
+If there is a mismatch, update the domain's name server records to reflect the correct values as specified in your hosted zone.
+
+For detailed guidance, refer to Adding or changing name servers and glue records for a domain.
 
     
 ## Further Readings
