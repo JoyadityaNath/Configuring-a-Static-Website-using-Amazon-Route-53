@@ -23,7 +23,8 @@ Leave all the other settings as they are in their default values.
 4. Under **Static website hosting**, choose **Enable**.
 5. Choose **Host Static Website** under **Hosting Type** to host a website.
 6. In **Index document**, enter the file name of the index document, typically *`index.html`*.<br>
-The index document name is case sensitive and must exactly match the file name of the HTML index document that you plan to upload to your S3 bucket. When you configure a bucket for website hosting, you must specify an index document. Amazon S3 returns this index document when requests are made to the root domain or any of the subfolders. A sample index file is given below.<br>
+The index document name is case sensitive and must exactly match the file name of the HTML index document that you plan to upload to your S3 bucket. When you configure a bucket for website hosting, you must specify an index document. Amazon S3 returns this index document when requests are made to the root domain or any of the subfolders. <br>
+7. Create an `index.html` file and upload it to your root domain bucket. A sample index file code is given below.
 ```html
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
@@ -36,8 +37,20 @@ The index document name is case sensitive and must exactly match the file name o
 </html>
 ```
 
-7. To provide your own custom error document for 4XX class errors, in **Error document**, enter the custom error document file name.<br>
+8. To provide your own custom error document for 4XX class errors, in **Error document**, enter the custom error document file name.<br>
 The error document name is case sensitive and must exactly match the file name of the HTML error document that you plan to upload to your S3 bucket. If you don't specify a custom error document and an error occurs, Amazon S3 returns a default HTML error document.<br>
+9. Create an `error.html` file and upload it to your root domain bucket. A sample error file code is given below.<br>
+```html
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Error Page</title>
+</head>
+<body>
+  <h1>404 ERROR</h1>
+  <p>Sorry for the Issue</p>
+</body>
+</html>
+```
 8. Choose **Save changes**.<br>
 Amazon S3 enables static website hosting for your bucket. At the bottom of the page, under Static website hosting, you see the website endpoint for your bucket.
 9. Under **Static website hosting**, note the `Endpoint`.<br>
