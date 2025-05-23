@@ -36,8 +36,8 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 9. In **Value/Route traffic to**, choose **Alias to S3 website endpoint**.
 10. Choose the **Region**.
 11. Choose the S3 bucket.
-12. The bucket name should match the name that appears in the Name box. In the Choose S3 bucket list, the bucket name appears with the Amazon S3 website endpoint for the Region where the bucket was created, for example, s3-website-us-west-1.amazonaws.com (example.com).
-13. If your bucket does not appear in the Choose S3 bucket list, enter the Amazon S3 website endpoint for the Region where the bucket was created, for example, s3-website-us-west-2.amazonaws.com. For a complete list of Amazon S3 website endpoints, see Amazon S3 Website endpoints. For more information about the alias target, see Value/route traffic to in the Amazon Route 53 Developer Guide.
+12. The bucket name should match the name that appears in the Name box. In the **Choose S3 bucket** list, the bucket name appears with the Amazon S3 website endpoint for the Region where the bucket was created, for example, `s3-website-us-west-1.amazonaws.com` (example.com).
+13. If your bucket does not appear in the Choose S3 bucket list, enter the Amazon S3 website endpoint for the Region where the bucket was created, for example, `s3-website-us-west-2.amazonaws.com`. For a complete list of Amazon S3 website endpoints, see Amazon S3 Website endpoints.
 14. In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
 15. For Evaluate target health, choose No.
 16. Choose Define simple record.
