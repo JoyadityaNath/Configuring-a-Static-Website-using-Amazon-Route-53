@@ -84,7 +84,9 @@ If server access logging was enabled, you can now inspect the log files generate
 - Total bytes transferred
 - Referrer and user-agent details
 - Requested object key
-
+<br>
+![image](https://github.com/user-attachments/assets/05bd69ef-59fc-47ff-b208-44989ea1316d)
+The above screenshot shows all the files that were logged in the `logs/` folder of my S3 bucket whenever the static website was visited.
 
 
 
