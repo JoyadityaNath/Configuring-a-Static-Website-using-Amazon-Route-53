@@ -122,8 +122,8 @@ In the above example bucket policy, *Bucket-Name* is a placeholder for the bucke
 6. Choose **Save changes**.<br>
 ![image](https://github.com/user-attachments/assets/ef9d1b4e-d01e-4e62-a3d2-0e0201beb8e2)<br><br>
 Attaching a bucket policy to the domain bucket will allow public read access. You replace the *Bucket-Name* in the example bucket policy with the name of your domain bucket.
-After you edit S3 Block Public Access settings, you can add a bucket policy to grant public read access to your bucket. When you grant public read access, anyone on the internet can access your bucket.
-
+After you edit S3 Block Public Access settings, you can add a bucket policy to grant public read access to your bucket. When you grant public read access, anyone on the internet can access your bucket.<br>
+## 7. Test your Domain Endpoint
 
 
 
