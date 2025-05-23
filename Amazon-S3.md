@@ -61,7 +61,8 @@ If you want to track the number of visitors accessing your website, you can enab
     i)Choose **Browse S3**.<br>
    ii) Choose the bucket name, and then choose the logs folder.<br>
   iii) Choose **Choose destination**.<br>
-   ![image](https://github.com/user-attachments/assets/3548ffbe-fba8-4134-b40f-f3982ed46917)
+   ![image](https://github.com/user-attachments/assets/3548ffbe-fba8-4134-b40f-f3982ed46917)<br>
+   You can leave the remaining settings at their default values.
 
 10. Choose **Save changes**.<br><br>
 
