@@ -12,6 +12,11 @@ In this project, the first two services of Amazon Route 53 will be used. Route 5
 
 2. For registering a domain using Route 53 navigate through web pages as follows **Get Started** --> **Register a Domain**--> **Get started**.
 
+3. You will land on a Register Domains page. here you can give your website a name and decide which Top Level Domain([TLD]()) to select. For project purposes, select the cheapest TLD i.e.**.click** which charges only 3 USD per year! You can explore many more TLDs. Route 53 provides a whopping 355 TLDs.
+
+4. Also [select a unique domain name]() and check its availability. Your domain name should be unique across entire internet. In the screenshot below it shows "statico.click is not available" because I have already registered this domain for this project.
+
+5.     
 
    
 
